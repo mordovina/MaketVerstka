@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0; 
+    text-decoration: none;
+}
+
+.center {
+    padding-left: calc (50% - 630px);
+    padding-right: calc (50% - 630px);
+}
+
+@import url("/fonts/fonts.css");
+
+.calls_item h3,
+.calls_item a,
+.subheader_adventeges h1,
+.adventeges_item button {
+    font-family: 'Gilroy-Bold';
+}
+
+.calls_item p,
+.subheader_adventeges p,
+.adventeges_item h3 {
+    font-family: 'Gilroy-Regular';
+}
+
+.calls {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    gap: 30px;
+}
+
+.calls_item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 40px 30px 25px 30px;
+}
+
+.calls_item h3 {
+    margin-top: 25px;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.calls_item p {
+    font-size: 15px;
+    line-height: 150%;
+    color: #666666;
+}
+
+.calls_item a {
+    font-size: 11px;
+    margin-top: 25px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.shadow {
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.adventeges_blok {
+    background: #FAFAFA;
+    
+}
+
+.subheader_adventeges{
+    margin-top: 92px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 19px;
+}
+
+.subheader_adventeges h1 {
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.subheader_adventeges p {
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #666666;
+}
+
+.adventeges {
+    margin-top: 54px;
+    margin-bottom: 100px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.adventeges_item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;   
+}
+
+.adventeges_item h3 {
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 21px;
+}
+
+.adventeges_item p{
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: #AAAAAA;
+}
+
+.adventeges_item button {
+    margin-top: 39px;
+    margin-bottom: 50px; 
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    font-size: 13px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 15px 40px;
+    border: 0; 
+}
